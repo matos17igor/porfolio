@@ -581,6 +581,13 @@ ol {
   aspect-ratio: 16 / 9;
   background: var(--surface-3);
   border-bottom: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.project-desc p + p,
+.project-desc ul,
+.project-desc ol {
+  margin-top: 8px;
 }
 
 .project-thumb img {
@@ -618,6 +625,9 @@ ol {
 }
 
 .tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 13px;
   padding: 6px 12px;
   border-radius: 999px;

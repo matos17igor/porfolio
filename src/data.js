@@ -22,26 +22,26 @@ export const about = {
   ],
 };
 
-export const projects = [
-  {
-    title: "[Nome do projeto]",
-    description:
-      "[Uma ou duas frases: qual problema resolve, seu papel e o resultado.]",
-    tags: ["[Tecnologia]", "[Tecnologia]", "[Tecnologia]"],
-    image: null, // ex.: '/projetos/projeto-1.png'
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "[Nome do projeto]",
-    description:
-      "[Uma ou duas frases: qual problema resolve, seu papel e o resultado.]",
-    tags: ["[Tecnologia]", "[Tecnologia]", "[Tecnologia]"],
-    image: null,
-    demo: "#",
-    code: "#",
-  },
-];
+// export const projects = [
+//   {
+//     title: "[Nome do projeto]",
+//     description:
+//       "[Uma ou duas frases: qual problema resolve, seu papel e o resultado.]",
+//     tags: ["[Tecnologia]", "[Tecnologia]", "[Tecnologia]"],
+//     image: null, // ex.: '/projetos/projeto-1.png'
+//     demo: "#",
+//     code: "#",
+//   },
+//   {
+//     title: "[Nome do projeto]",
+//     description:
+//       "[Uma ou duas frases: qual problema resolve, seu papel e o resultado.]",
+//     tags: ["[Tecnologia]", "[Tecnologia]", "[Tecnologia]"],
+//     image: null,
+//     demo: "#",
+//     code: "#",
+//   },
+// ];
 
 export const experience = [
   {
