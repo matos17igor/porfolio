@@ -3,9 +3,9 @@ export const profile = {
   initials: "Igor Matos",
   role: "Desenvolvedor de Software",
   tagline:
-    "Construo produtos digitais claros, rápidos e bem pensados — do primeiro rascunho ao deploy.",
+    "Construo produtos e sistemas, rápidos, bem pensados e que resolvem problemas reais.",
   available: true,
-  availableText: "Disponível para novos projetos",
+  availableText: "Aberto a novas propostas",
   photo: null, // ex.: '/foto.jpg' (coloque o arquivo na pasta public/)
   resume: "#", // ex.: '/curriculo.pdf'
   email: "igorochamatos@hotmail.com",
@@ -18,10 +18,11 @@ export const about = {
   facts: [
     { label: "Localização", value: "Juiz de Fora, MG" },
     { label: "Formação", value: "Ciência da Computação · UFJF" },
-    { label: "Idiomas", value: "Português, Inglês" },
+    { label: "Idiomas", value: "Português(Nativo) Inglês(Básico)" },
   ],
 };
 
+// Atualmente estou consumindo uma api do FormaCMS para cadastrar meus projetos
 // export const projects = [
 //   {
 //     title: "[Nome do projeto]",
@@ -46,22 +47,61 @@ export const about = {
 export const experience = [
   {
     period: "Julho 2026 — atual",
-    role: "Desenvolvedor Backend",
+    role: "Estagiário de Desenvolvimento Backend",
     company: "SmartNX",
-    description: "Descrever detalhado oque faço",
+    description:
+      "Atuo no desenvolvimento e evolução de APIs e serviços back-end utilizando Node.js, Express e PostgreSQL, garantindo a sustentação e a entrega de novas funcionalidades da plataforma.",
+    topics: [
+      {
+        title: "Arquitetura e Regras de Negócio",
+        text: "Desenvolvimento de endpoints, implementação de validações rigorosas, tratamento de exceções e otimização de consultas e persistência em banco de dados relacional.",
+      },
+      {
+        title: "Integrações e Resiliência",
+        text: "Construção e manutenção de integrações com serviços externos e webhooks, incluindo consumo de filas RabbitMQ e uso de cache Redis para evitar consultas repetidas ao banco, além de investigação e correção de bugs para manter a estabilidade do sistema.",
+      },
+      {
+        title: "Qualidade e Engenharia",
+        text: "Escrita de testes automatizados, documentação técnica de APIs, participação ativa em code reviews e colaboração contínua com times de Front-end, QA e Produto em ambiente ágil.",
+      },
+    ],
   },
   {
     period: "Maio 2026 — Julho 2026",
-    role: "Estágiario de Suporte",
-    company: "NVoip",
-    description: "Descrever oque fiz",
+    role: "Estagiário de Atendimento e Suporte à Plataforma",
+    company: "Nvoip",
+    description:
+      "Atuei no suporte técnico especializado e na sustentação da plataforma de comunicações, servindo como ponte entre clientes, integrações de sistemas e o time de desenvolvimento.",
+    topics: [
+      {
+        title: "Diagnóstico Técnico e Troubleshooting",
+        text: "Investigação de falhas em integrações via API, análise de logs, problemas de conectividade e configurações de rede (DNS, firewall).",
+      },
+      {
+        title: "Sustentação e Reporte de Bugs",
+        text: "Reprodução de cenários de erro, documentação técnica detalhada de incidentes e escalonamento assertivo para o time de desenvolvimento, reduzindo o tempo de resolução.",
+      },
+      {
+        title: "Suporte a Integradores",
+        text: "Auxílio técnico a desenvolvedores e clientes na configuração da plataforma e consumo das APIs, garantindo estabilidade e boa experiência de uso.",
+      },
+    ],
   },
 ];
 
 export const skills = [
   {
     group: "Back-end",
-    items: ["Javascript", "Node", "Java"],
+    items: [
+      "Javascript",
+      "Node",
+      "Express",
+      "Java",
+      "PostgreSQL",
+      "Redis",
+      "RabbitMQ",
+      "Testes automatizados",
+    ],
   },
   {
     group: "Front-end",
